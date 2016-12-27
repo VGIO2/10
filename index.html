@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetivo Squad= 80%</title>
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/team.png">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--------------------------------------------------------------------------HEADER-------------->
+   <header>
+       <div class="container">
+           <div class="row">
+               <div class="col-sm-offset-3 col-sm-6 col-xs-12 logo">
+                   <img class="img-responsive animated wobble texto" src="images/logo.png">
+                   <h3 class="text-center">Calcula el porcentaje de tu Squad. <br> Obten mas del 80%!</h3>
+               </div>
+           </div>
+       </div>
+   </header>
+<!-------------------------------------------------------------------------EJERCICIO--->
+   
+    <section class="ejercicio">
+        <div class="container text-center">
+            <div class="row">
+                   <div class="col-sm-offset-3 col-sm-6">
+                      <p class="text-left">A</p>
+                       <input type="text" class="form-control" id="a" placeholder="0">
+                   </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-offset-3 col-sm-6">
+                      <p class="text-left espacio">B</p>
+                       <input type="text" class="form-control" id="b" placeholder="0">
+                   </div>
+            </div>
+            <div class="row boton">
+               <button type="button" class="btn btn-danger " onclick="calcular()">Calcular</button>
+            </div>
+            <div class="row">
+                <p id="salida"></p>
+            </div>
+        </div>
+    </section>    
+        <script src="js/main.js"></script>
+</body>
