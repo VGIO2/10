@@ -1,7 +1,7 @@
 # 10
 Ejercicio-6
 
-Inicio: Diff 21
+Inicio: Haz 10
 
 ## Ingreso datos
 - a
